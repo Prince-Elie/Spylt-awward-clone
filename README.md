@@ -173,3 +173,4 @@ The project uses Tailwind CSS and React Responsive to ensure an optimal experien
 <!-- Development commit 3 -->
 <!-- Development commit 4 -->
 <!-- Development commit 5 -->
+<!-- Development commit 6 -->
