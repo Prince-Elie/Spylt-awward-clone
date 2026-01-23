@@ -247,3 +247,4 @@ The project uses Tailwind CSS and React Responsive to ensure an optimal experien
 <!-- Push #16 -->
 <!-- Push #14 -->
 <!-- Push #17 -->
+<!-- Push #15 -->
