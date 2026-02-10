@@ -300,3 +300,4 @@ The project uses Tailwind CSS and React Responsive to ensure an optimal experien
 <!-- Push #41 -->
 <!-- Push #30 -->
 <!-- Push #42 -->
+<!-- Push #29 -->
