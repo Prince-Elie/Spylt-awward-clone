@@ -2,7 +2,11 @@
 
 Recreating a website frontend that has won an Awwwards Site of the Day, using GSAP, ReactJS, and Tailwind CSS.
 
-## 🎨 Description
+## � Live Demo
+
+Check out the live demo here: **[https://prince-elie.github.io/Spylt-awward-clone/](https://prince-elie.github.io/Spylt-awward-clone/)**
+
+## �🎨 Description
 
 This project is a clone of an Awwwards-awarded website (Site of the Day). It showcases smooth and modern animations with a clean and responsive user interface. The site features multiple dynamic sections including product benefits, a flavor gallery, and customer testimonials.
 
