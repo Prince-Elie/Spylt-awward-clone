@@ -8,7 +8,7 @@ const FooterSection = () => {
   return (
     <section className="footer-section">
       <img
-        src="/images/footer-dip.png"
+        src={`${import.meta.env.BASE_URL}images/footer-dip.png`}
         alt=""
         className="w-full object-cover -translate-y-1"
       />
@@ -22,12 +22,12 @@ const FooterSection = () => {
 
         {isMobile ? (
           <img
-            src="/images/footer-drink.png"
+            src={`${import.meta.env.BASE_URL}images/footer-drink.png`}
             className="absolute top-0 object-contain"
           />
         ) : (
           <video
-            src="/videos/splash.mp4"
+            src={`${import.meta.env.BASE_URL}videos/splash.mp4`}
             autoPlay
             playsInline
             muted
@@ -37,13 +37,13 @@ const FooterSection = () => {
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
           <div className="social-btn">
-            <img src="./images/yt.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/yt.svg`} alt="" />
           </div>
           <div className="social-btn">
-            <img src="./images/insta.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/insta.svg`} alt="" />
           </div>
           <div className="social-btn">
-            <img src="./images/tiktok.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}images/tiktok.svg`} alt="" />
           </div>
         </div>
 
@@ -78,7 +78,7 @@ const FooterSection = () => {
                 placeholder="Enter your email"
                 className="w-full placeholder:font-sans placeholder:text-[#999999]"
               />
-              <img src="/images/arrow.svg" alt="arrow" />
+              <img src={`${import.meta.env.BASE_URL}images/arrow.svg`} alt="arrow" />
             </div>
           </div>
         </div>
