@@ -14,31 +14,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   useGSAP(() => {
-    // ScrollSmoother is commented out for production compatibility
-    // ScrollSmoother.create({
-    //   smooth: 3,
-    //   effects: true,
-    // });
+    // ScrollTrigger animations are active
   });
 
   return (
     <main>
       <NavBar />
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
-          <HeroSection />
-          <MessageSection />
-          <FlavorSection />
-          <NutritionSection />
-
-          <div>
-            <BenefitSection />
-            <TestimonialSection />
-          </div>
-
-          <FooterSection />
-        </div>
-      </div>
+      <HeroSection />
+      <MessageSection />
+      <FlavorSection />
+      <NutritionSection />
+      <BenefitSection />
+      <TestimonialSection />
+      <FooterSection />
     </main>
   );
 };
